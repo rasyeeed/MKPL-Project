@@ -13,7 +13,7 @@ public class AppTest {
     
     @Before
     public void setUp() {
-        calculator = new Convert(23);
+        calculator = new Convert(20);
     }
 
     @Test
