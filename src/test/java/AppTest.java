@@ -18,7 +18,7 @@ public class AppTest {
 
     @Test
     public void testCelciusToKelvin() {
-        assertEquals(calculator.toKelvin(), 296.15,0);
+        assertEquals(calculator.toKelvin(), 296.15,0); 
     }
 
     @Test
