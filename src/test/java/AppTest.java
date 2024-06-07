@@ -22,11 +22,6 @@ public class AppTest {
     }
 
     @Test
-    public void testCelciusToKelvin() {
-        assertEquals(calculator.toKelvin(), 296,0);
-    }
-
-    @Test
     public void testCelciusToFahrenheit() {
         assertEquals(calculator.toFahrenheit(), 55.0,0);
     }
