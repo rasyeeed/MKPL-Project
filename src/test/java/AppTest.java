@@ -13,16 +13,16 @@ public class AppTest {
     
     @Before
     public void setUp() {
-        calculator = new Convert(23);
+        calculator = new Convert(24);
     }
 
     @Test
     public void testCelciusToKelvin() {
-        assertEquals(calculator.toKelvin(), 296.15,0);
+        assertEquals(calculator.toKelvin(), 297,15,0);
     }
 
     @Test
     public void testCelciusToFahrenheit() {
-        assertEquals(calculator.toFahrenheit(), 55.0,0);
+        assertEquals(calculator.toFahrenheit(), 75.2,0);
     }
 }
